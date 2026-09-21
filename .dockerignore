@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.github
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+coverage
+test-results
+playwright-report
+docs
+README.md
+.agents
+.codex

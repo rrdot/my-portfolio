@@ -1,0 +1,47 @@
+name: Quality checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run format:check
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+        env:
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      - run: docker build --build-arg NEXT_PUBLIC_SITE_URL=https://example.com -t portfolio:ci .
+      - name: Smoke test production container
+        run: |
+          docker run -d --name portfolio -p 3000:3000 portfolio:ci
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://localhost:3000/api/health; then break; fi
+            sleep 2
+          done
+          curl --fail http://localhost:3000/api/health
+          curl --fail --output /dev/null http://localhost:3000/
+          test "$(docker exec portfolio id -u)" != "0"
+          docker image inspect portfolio:ci --format='Image size: {{.Size}} bytes'
+      - name: Container logs
+        if: always()
+        run: docker logs portfolio || true

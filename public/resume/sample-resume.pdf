@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2364 >>
+stream
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 794 Td (SAMPLE RESUME - REPLACE BEFORE USE) Tj ET
+BT /F2 25 Tf 0.14 0.18 0.16 rg 46 779 Td (Your Name) Tj ET
+BT /F1 11 Tf 0.14 0.18 0.16 rg 46 749 Td (Web Developer | Your City, Country) Tj ET
+BT /F1 10 Tf 0.14 0.18 0.16 rg 46 733 Td (hello@example.com) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 707 Td (PROFILE) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 690 Td (A short introduction to who you are, what you create, and the kind of work you enjoy.) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 664.5 Td (PROFESSIONAL EXPERIENCE) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 647.5 Td (Your Current Role | Your Company) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 632.5 Td (Start date - Present) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 618.5 Td (- Describe a responsibility or project you contributed to.) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 604 Td (- Explain how you collaborated, solved a problem, or supported the team.) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 589.5 Td (- Add a specific outcome from your work when you have one to share.) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 568 Td (Your Previous Role | Previous Company) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 553 Td (Start date - End date) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 539 Td (- Outline the kind of work you did in this role.) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 524.5 Td (- Describe a useful skill you developed or a challenge you worked through.) Tj ET
+BT /F1 9.5 Tf 0.14 0.18 0.16 rg 46 510 Td (- Share a contribution that helps visitors understand your experience.) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 477.5 Td (TECHNICAL TOOLKIT) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 460.5 Td (Languages: HTML, CSS, JavaScript, TypeScript) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 446.5 Td (Frontend: React, Next.js, Tailwind CSS) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 432.5 Td (Backend: Node.js, REST APIs) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 418.5 Td (Data: SQL, Data modeling) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 404.5 Td (Tools & practices: Git, Figma, Responsive design, Accessibility, Testing, Documentation) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 379.5 Td (EDUCATION) Tj ET
+BT /F2 10 Tf 0.14 0.18 0.16 rg 46 362.5 Td (Your Degree or Qualification) Tj ET
+BT /F1 9 Tf 0.14 0.18 0.16 rg 46 347.5 Td (Your University or Institution | Start year - End year) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2812
+%%EOF
